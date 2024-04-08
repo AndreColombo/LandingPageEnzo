@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     let meImg = document.createElement("img");
     meImg.className = "meImg";
-    meImg.src = "img/IMG_20231006_202513_199.jpg"; // Adicione o caminho da imagem
+    meImg.src = "vite-project/src/img/Zenzo.jpg";
     meImg.alt = "Me";
     bannerDiv.appendChild(meImg);
 
@@ -53,11 +53,11 @@ document.addEventListener("DOMContentLoaded", function() {
     habilidadesDiv.className = "habilidades";
 
     let habilidades = [
-        { name: "Html", imgSrc: "img/html-5.png" },
-        { name: "Css", imgSrc: "img/css-3.png" },
-        { name: "JavaScript", imgSrc: "img/js.png" },
-        { name: "Powerpoint", imgSrc: "img/powerpoint.png" },
-        { name: "Exel", imgSrc: "img/excel.png" }
+        { name: "Html", imgSrc: "vite-project/src/img/html-5.png" },
+        { name: "Css", imgSrc: "vite-project/src/img/css-3.png" },
+        { name: "JavaScript", imgSrc: "vite-project/src/img/js.png" },
+        { name: "Powerpoint", imgSrc: "vite-project/src/img/powerpoint.png" },
+        { name: "Exel", imgSrc: "vite-project/src/img/excel.png" }
     ];
 
     habilidades.forEach(function(habilidade) {
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
     gmailLink.href = "https://www.google.com";
     let gmailImg = document.createElement("img");
     gmailImg.className = "redes";
-    gmailImg.src = "img/gmail.png";
+    gmailImg.src = "vite-project/src/img/gmail.png";
     gmailImg.alt = "gmail";
     gmailLink.appendChild(gmailImg);
     contatosDiv.appendChild(gmailLink);
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", function() {
     linkedinLink.href = "https://www.linkedin.com/in/enzo-brincalepe/";
     let linkedinImg = document.createElement("img");
     linkedinImg.className = "redes";
-    linkedinImg.src = "img/linkedin.png";
+    linkedinImg.src = "vite-project/src/img/linkedin.png";
     linkedinImg.alt = "linkedin";
     linkedinLink.appendChild(linkedinImg);
     contatosDiv.appendChild(linkedinLink);
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function() {
     githubLink.href = "https://github.com/E-brinca64";
     let githubImg = document.createElement("img");
     githubImg.className = "redes";
-    githubImg.src = "img/github.png";
+    githubImg.src = "vite-project/src/img/github.png";
     githubImg.alt = "github";
     githubLink.appendChild(githubImg);
     contatosDiv.appendChild(githubLink);
